@@ -49,7 +49,7 @@ function setup() {
         }
     }
 
-    frameRate(20);
+    frameRate(5);
     createCanvas(matrix[0].length * side + 1, matrix.length * side + 1);
     background('#acacac');
 

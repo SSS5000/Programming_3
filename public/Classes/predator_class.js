@@ -7,35 +7,7 @@ class Predator {
         this.directions = [];
         this.energy = 18;
     }
-    // getNewCoordinates() {
-    //     this.directions = [
-    //         [this.i - 1, this.j - 1],
-    //         [this.i, this.j - 1],
-    //         [this.i + 1, this.j - 1],
-    //         [this.i - 1, this.j],
-    //         [this.i + 1, this.j],
-    //         [this.i - 1, this.j + 1],
-    //         [this.i, this.j + 1],
-    //         [this.i + 1, this.j + 1],
-    //         [this.i - 2, this.j - 2],
-    //         [this.i - 1, this.j - 2],
-    //         [this.i, this.j - 2],
-    //         [this.i + 1, this.j - 2],
-    //         [this.i + 2, this.j - 2],
-    //         [this.i - 2, this.j - 1],
-    //         [this.i + 2, this.j - 1],
-    //         [this.i - 2, this.j],
-    //         [this.i + 2, this.j],
-    //         [this.i - 2, this.j + 1],
-    //         [this.i + 2, this.j + 1],
-    //         [this.i - 2, this.j + 2],
-    //         [this.i - 1, this.j + 2],
-    //         [this.i, this.j + 2],
-    //         [this.i + 1, this.j + 2],
-    //         [this.i + 2, this.j + 2],
 
-    //     ];
-    // }
     getNewCoordinates() {
         this.directions = [
             [this.i - 1, this.j - 1],
@@ -103,7 +75,6 @@ class Predator {
 
     mul() {
         var newCell = random(this.chooseCell(0));
-
 
         if (newCell) {
             var newJ = newCell[0];

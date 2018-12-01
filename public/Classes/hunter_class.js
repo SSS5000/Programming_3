@@ -33,8 +33,7 @@ class Hunter {
     shoot() {
         var newCell = random(this.chooseCell(3, 4));
 
-        if(newCell)
-        {
+        if (newCell) {
         console.log("aa");
             var I = newCell[0];
             var J = newCell[1];
